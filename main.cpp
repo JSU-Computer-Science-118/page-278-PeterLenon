@@ -33,7 +33,7 @@ int main()
     }
     cin>>costOfOneBox;
     
-    cout<<"Total number of boxes sold: "<<totalNumOfBoxesSold<<endl;
+    cout<<" Total number of boxes sold: "<<totalNumOfBoxesSold<<endl;
     
     cout<<"Total money made: $"<<totalNumOfBoxesSold*costOfOneBox<<endl;
     
