@@ -18,13 +18,13 @@ int main()
     cout<<fixed<<showpoint<<setprecision(2);
     string * ptr = nullptr;
     ptr = new string;
-    cin>> ptr;
-    while (ptr != SENTINEL)
+    cin>> *ptr;
+    while (*ptr != SENTINEL)
     {
         numOfVolunteers++;
         cin>>numOfBoxesSold;
         totalNumOfBoxesSold += numOfBoxesSold;
-        cin>> ptr;
+        cin>> *ptr;
     }
     cin>>costOfOneBox;
     cout<<"Total number of boxes sold: "<<totalnumOfBoxesSold<<endl;
