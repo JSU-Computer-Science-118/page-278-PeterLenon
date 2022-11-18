@@ -1,7 +1,4 @@
-//Peter lenon Goshomi
-//J00972650
-//Chapter 5 
-
+//Peter Lenon Goshomi J00123456 11/18/2022
 #include <string>
 #include <iomanip>
 #include <iostream>
