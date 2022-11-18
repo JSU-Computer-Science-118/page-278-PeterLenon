@@ -33,16 +33,16 @@ int main()
     }
     cout<<endl;
     
-    cout<<totalNumOfBoxesSold<<endl;
+    cout<<"Total number if boxes sold: "<<totalNumOfBoxesSold<<endl;
     
     cin>>costOfOneBox;
     cout<<endl;
     
-    cout<<totalNumOfBoxesSold*costOfOneBox<<endl;
+    cout<<"Total money made: "<<totalNumOfBoxesSold*costOfOneBox<<endl;
     
     if (numOfVolunteers != 0 )
     {
-        cout<<totalNumOfBoxesSold/numOfVolunteers<<endl;
+        cout<<"Average number of boxes sold by each person: "<<totalNumOfBoxesSold/numOfVolunteers<<endl;
     }
 
     return 0;
