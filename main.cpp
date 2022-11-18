@@ -10,36 +10,31 @@ const string SENTINEL = "-1";
 int main()
 {
     string name;
-    int numOfVolunteers;
-    int numOfBoxesSold;
-    int totalNumOfBoxesSold;
+    int numOfVolunteers = 0;
+    int numOfBoxesSold = 0;
+    int totalNumOfBoxesSold = 0;
     double costOfOneBox;
-    
+ 
     cout<<fixed<<showpoint<<setprecision(2);
-    totalNumOfBoxesSold =0;
-    numOfVolunteers = 0;
-    
-    cin>>name;
-    
-    while(name != SENTINEL)
+    str * ptr = nullptr;
+    ptr = new str;
+    cin>> ptr;
+    while (ptr != SENTINEL)
     {
-        cin>>numOfBoxesSold;
-        totalNumOfBoxesSold = totalNumOfBoxesSold + numOfBoxesSold;
         numOfVolunteers++;
-        cin>>name;
+        cin>>numOfBoxesSold;
+        totalNumOfBoxesSold += numOfBoxesSold;
+        cin>> ptr;
     }
     cin>>costOfOneBox;
-    
-    cout<<" Total number of boxes sold: "<<totalNumOfBoxesSold<<endl;
-    
-    cout<<"Total money made: $"<<totalNumOfBoxesSold*costOfOneBox<<endl;
-    
-    if (numOfVolunteers != 0 )
-    {
+    cout<<"Total number of boxes sold: "<<totalnumOfBoxesSold<<endl;
+    cout<<"Total money made: $"<<totalnumOfBoxesSold*costOfOneBox<<endl;
+    if (numOfVolunteers != 0)
         cout<<"Average number of boxes sold by each person: "<<totalNumOfBoxesSold/numOfVolunteers<<endl;
-    }
-    else if (numofVolunteers == 0)
+    else
         cout<<"No input."<<endl;
+ 
+
 
     return 0;
 }
