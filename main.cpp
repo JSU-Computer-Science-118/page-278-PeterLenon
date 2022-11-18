@@ -31,12 +31,10 @@ int main()
         numOfVolunteers++;
         cin>>name;
     }
-    cout<<endl;
     
     cout<<"Total number if boxes sold: "<<totalNumOfBoxesSold<<endl;
     
     cin>>costOfOneBox;
-    cout<<endl;
     
     cout<<"Total money made: "<<totalNumOfBoxesSold*costOfOneBox<<endl;
     
