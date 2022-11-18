@@ -35,7 +35,7 @@ int main()
     
     cout<<"Total number of boxes sold: "<<totalNumOfBoxesSold<<endl;
     
-    cout<<"Total money made: "<<totalNumOfBoxesSold*costOfOneBox<<endl;
+    cout<<"Total money made: $"<<totalNumOfBoxesSold*costOfOneBox<<endl;
     
     if (numOfVolunteers != 0 )
     {
