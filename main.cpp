@@ -38,7 +38,7 @@ int main()
     {
         cout<<"Average number of boxes sold by each person: "<<totalNumOfBoxesSold/numOfVolunteers<<endl;
     }
-    else if (numofVolunteers = 0)
+    else if (numofVolunteers == 0)
         cout<<"No input."<<endl;
 
     return 0;
