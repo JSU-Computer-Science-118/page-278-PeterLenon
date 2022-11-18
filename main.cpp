@@ -31,10 +31,9 @@ int main()
         numOfVolunteers++;
         cin>>name;
     }
+    cin>>costOfOneBox;
     
     cout<<"Total number of boxes sold: "<<totalNumOfBoxesSold<<endl;
-    
-    cin>>costOfOneBox;
     
     cout<<"Total money made: "<<totalNumOfBoxesSold*costOfOneBox<<endl;
     
