@@ -32,7 +32,7 @@ int main()
         cin>>name;
     }
     
-    cout<<"Total number if boxes sold: "<<totalNumOfBoxesSold<<endl;
+    cout<<"Total number of boxes sold: "<<totalNumOfBoxesSold<<endl;
     
     cin>>costOfOneBox;
     
