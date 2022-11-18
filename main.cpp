@@ -16,8 +16,8 @@ int main()
     double costOfOneBox;
  
     cout<<fixed<<showpoint<<setprecision(2);
-    str * ptr = nullptr;
-    ptr = new str;
+    string * ptr = nullptr;
+    ptr = new string;
     cin>> ptr;
     while (ptr != SENTINEL)
     {
