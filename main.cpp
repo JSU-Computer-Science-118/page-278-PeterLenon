@@ -27,8 +27,8 @@ int main()
         cin>> *ptr;
     }
     cin>>costOfOneBox;
-    cout<<"Total number of boxes sold: "<<totalnumOfBoxesSold<<endl;
-    cout<<"Total money made: $"<<totalnumOfBoxesSold*costOfOneBox<<endl;
+    cout<<"Total number of boxes sold: "<<totalNumOfBoxesSold<<endl;
+    cout<<"Total money made: $"<<totalNumOfBoxesSold*costOfOneBox<<endl;
     if (numOfVolunteers != 0)
         cout<<"Average number of boxes sold by each person: "<<totalNumOfBoxesSold/numOfVolunteers<<endl;
     else
